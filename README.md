@@ -19,6 +19,7 @@ For containerization I used docker.
 
 # Cloud Deployment
 I used google cloud run via docker plus artifact regisrty for my cloud deployment.
+link to website: https://easyfinance-app-880122042222.us-west1.run.app/
 
 # How to run Locally
 follow these steps in your terminal to run it locally  
