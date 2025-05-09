@@ -1,0 +1,123 @@
+/*This is my style page where all of the html pages get their styleing
+I worked on the Polling App project and this stlye is based on that becuase I liked it*/
+<style>
+
+/*This is the base layout and background styleing for the whole page*/
+  body {
+    font-family: 'Sora', sans-serif;
+    background: linear-gradient(to bottom right, #0d1117, #1a1f2c);
+    color: #cbd5e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+/*Style for Calculator container*/
+  .container {
+    background-color: #111827;
+    padding: 2rem 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 600px;
+  }
+
+  /*This is for the main heading*/
+  h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.75rem;
+    color: #60a5fa;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  /*Label text color*/
+  label {
+    color: #9ca3af;
+  }
+
+  /*Input field styling*/
+  .form-control {
+    background-color: #1f2937;
+    color: #e0f2fe;
+    border: 1px solid #374151;
+    border-radius: 6px;
+  }
+
+  /*Placeholder color for inputs*/
+  .form-control::placeholder {
+    color: #64748b;
+  }
+
+  /*Primary button styling*/
+  .btn-primary {
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+    font-weight: 600;
+  }
+
+  /*color when hover over primary button*/
+  .btn-primary:hover {
+    background-color: #2563eb;
+  }
+
+  /*Style for alert box*/
+  .alert-info {
+    background-color: #1e3a8a;
+    color: #dbeafe;
+    border: 1px solid #3b82f6;
+    border-radius: 6px;
+  }
+
+  /*Style for link buttons*/
+  .btn-link {
+    color: #60a5fa;
+    text-decoration: none;
+  }
+
+  /*adds underline when hover over link buttons*/
+  .btn-link:hover {
+    text-decoration: underline;
+  }
+
+  /*List of group items for index page*/
+  .list-group-item {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    color: #93c5fd;
+    font-weight: 500;
+  }
+
+  /*Style for group a*/
+  .list-group-item a {
+    color: #93c5fd;
+    text-decoration: none;
+  }
+
+  /*adds underline when hover over a*/
+  .list-group-item a:hover {
+    text-decoration: underline;
+  }
+/*Centering content on page*/
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 1rem;
+}
+
+/*Setting full screen gradient background*/
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #0d1117, #1a1f2c);
+  font-family: 'Sora', sans-serif;
+  color: #cbd5e1;
+}
+
+</style>

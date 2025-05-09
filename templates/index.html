@@ -1,0 +1,22 @@
+<!-- This is the index html file where the user can navigate to the different calculators -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EasyFinance Calculators</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container py-5">
+      <h1 class="mb-4">Easy Finance Calculator Hub</h1>
+        <ul class="list-group">
+          <li class="list-group-item"><a href="/loan">Loan Payment Calculator</a></li>
+          <li class="list-group-item"><a href="/investment">Investment Growth Calculator</a></li>
+          <li class="list-group-item"><a href="/retirement">Retirement Savings Calculator</a></li>
+        </ul>
+    </div>
+  </div>
+</body>
+</html>
